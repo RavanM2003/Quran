@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header h1 {
+  font-weight: 900;
+  font-size: 50px;
+  color: #009000;
+}
+.header p {
+  font-weight: 600;
+}
+
+.surahs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+}
+.surahs .surahayah {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 100%;
+  border: 1px solid #009000;
+}
+.surahs .surahayah .surah {
+  width: 30%;
+  color: #009000;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+.surahs .surahayah .surah span {
+  font-weight: 700;
+  color: #000;
+}
+.surahs .surahayah .ayahs {
+  width: 70%;
+  color: #009000;
+  font-weight: 600;
+}
+.surahs .surahayah .ayahs ul {
+  list-style: none;
+}
+
+@media (max-width: 400px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header h1 {
+    font-weight: 900;
+    font-size: 40px;
+    color: #009000;
+  }
+  .header p {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .surahs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+  }
+  .surahs .surahayah {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 100%;
+    border: 1px solid #009000;
+    text-align: center;
+  }
+  .surahs .surahayah .surah {
+    width: 100%;
+    color: #009000;
+    margin-bottom: 1rem;
+    font-weight: 900;
+  }
+  .surahs .surahayah .surah span {
+    font-weight: 700;
+    color: #000;
+  }
+  .surahs .surahayah .ayahs {
+    width: 100%;
+    color: #009000;
+    font-weight: 600;
+  }
+  .surahs .surahayah .ayahs ul {
+    list-style: none;
+  }
+}/*# sourceMappingURL=style.css.map */
